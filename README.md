@@ -43,13 +43,22 @@ Below are some screenshots of the application:
 ![Login Page](https://raw.githubusercontent.com/07Ankitha/NagarNirmaan--A-Citizen-Complaint-Platform-Frontend-/main/nagarnirmaan%20login.png)
 
 ### Citizen Dashboard
-![Citizen Dashboard](images/citizen-dashboard.png)
+![Citizen Dashboard](https://raw.githubusercontent.com/07Ankitha/NagarNirmaan--A-Citizen-Complaint-Platform-Frontend-/main/nagarnirmaan%20citizen%20dashboard.png)
 
-### Admin Panel
-![Admin Panel](images/admin-panel.png)
+### Citizen Notifications
+![Citizen Notifications](https://raw.githubusercontent.com/07Ankitha/NagarNirmaan--A-Citizen-Complaint-Platform-Frontend-/main/nagarnirmaan%20citizen%20notifications.png)
 
-### Complaint Creation
-![Complaint Creation](images/complaint-creation.png)
+### Admin Dashboard
+![Admin Dashboard](https://raw.githubusercontent.com/07Ankitha/NagarNirmaan--A-Citizen-Complaint-Platform-Frontend-/main/nagarnirmaan%20admin%20dashboard.png)
+
+### Admin Complaint Details
+![Admin Complaint Details](https://raw.githubusercontent.com/07Ankitha/NagarNirmaan--A-Citizen-Complaint-Platform-Frontend-/main/nagarnirmaan%20Admin%20Complaint%20details.png)
+
+### Admin Assign Work
+![Admin Assign Work](https://raw.githubusercontent.com/07Ankitha/NagarNirmaan--A-Citizen-Complaint-Platform-Frontend-/main/nagarnirmaan%20admin%20assign%20work.png)
+
+### Admin Assignment Details
+![Admin Assignment Details](https://raw.githubusercontent.com/07Ankitha/NagarNirmaan--A-Citizen-Complaint-Platform-Frontend-/main/nagarnirmaan%20admin%20assignment%20details.png)
 
 
 ### Backend Repository
