@@ -1,96 +1,60 @@
-# Citizen Complaint Platform
+# NagarNirmaan - A Citizen Complaint Platform (Frontend)
 
-A modern web application that allows citizens to report and track civic issues in their community. Built with React.js, TypeScript, and Material-UI.
+Welcome to the **Frontend** of the **NagarNirmaan** project, an urban management system for resolving public issues such as road maintenance, water supply, waste management, electricity, and public safety concerns.
 
-## Features
+**Project Deployed at:**  
+[https://nagarnirmaan.onrender.com](https://nagarnirmaan.onrender.com)
 
-- User Authentication (Citizen and Admin roles)
-- Complaint Submission with Image Upload and Geolocation
-- Complaint Status Tracking with Timeline
-- Feedback and Rating System
-- Admin Dashboard for Complaint Management
-- Responsive and User-Friendly Interface
+## Project Overview
+NagarNirmaan provides a platform where citizens can log and track complaints related to urban issues, while administrators can manage and resolve those complaints. The system is designed with two user roles: **Citizen** and **Admin**.
+
+### Key Features
+- **Citizen Panel:**
+  - Register and log complaints related to urban issues.
+  - View status updates and notifications on complaints.
+  - Submit feedback after the resolution of complaints.
+  
+- **Admin Panel:**
+  - Admins can view, assign, and manage complaints to relevant organizations.
+  - Admins can update complaint status and dates.
+  - Admins can add new administrators for the system.
 
 ## Tech Stack
+- **Frontend:** React.js
+- **Backend:**  Spring Boot [NagarNirmaan Backend Repository](https://github.com/07Ankitha/NagarNirmaan--A-Citizen-Complaint-Platform-Backend-)
+- **Database:** PostgreSQL
 
-- **Frontend:**
-  - React.js with TypeScript
-  - Material-UI for UI components
-  - React Router for navigation
-  - Formik and Yup for form handling and validation
-  - React Dropzone for file uploads
-  - React Map GL for geolocation features
+## Features & Functionality
+1. **Login & Registration**: Users can register and log in to create complaints.
+2. **Complaint Management**: Users can create and track complaints.
+3. **Admin Panel**: Admins can view and assign complaints to organizations.
+4. **Notification System**: Users receive notifications regarding their complaint status.
 
-## Getting Started
+## Deployment
 
-### Prerequisites
+The frontend of NagarNirmaan is deployed on **Render**. You can access the live project here:  
+[https://nagarnirmaan.onrender.com](https://nagarnirmaan.onrender.com)
 
-- Node.js (v14 or higher)
-- npm or yarn
+## Screenshots
 
-### Installation
+Below are some screenshots of the application:
 
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd citizen-complaint-platform
-   ```
+### Login Page
+![Login Page](images/login-page.png)
 
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
+### Citizen Dashboard
+![Citizen Dashboard](images/citizen-dashboard.png)
 
-3. Create a `.env` file in the root directory and add the following:
-   ```
-   REACT_APP_API_URL=http://localhost:8080/api
-   REACT_APP_MAPBOX_TOKEN=your_mapbox_token
-   ```
+### Admin Panel
+![Admin Panel](images/admin-panel.png)
 
-4. Start the development server:
-   ```bash
-   npm start
-   ```
+### Complaint Creation
+![Complaint Creation](images/complaint-creation.png)
 
-The application will be available at `http://localhost:3000`.
 
-## Project Structure
+### Backend Repository
+For the backend code of the NagarNirmaan project, please refer to the repository here:  
+[https://github.com/07Ankitha/NagarNirmaan--A-Citizen-Complaint-Platform-Backend-](https://github.com/07Ankitha/NagarNirmaan--A-Citizen-Complaint-Platform-Backend-)
 
-```
-src/
-├── components/         # Reusable components
-├── contexts/          # React contexts (Auth, etc.)
-├── pages/             # Page components
-├── theme.ts           # Material-UI theme configuration
-└── App.tsx            # Main application component
-```
+---
 
-## API Integration
-
-The frontend is designed to work with a Spring Boot backend. The following API endpoints are expected:
-
-### Authentication
-- POST `/api/auth/register` - User registration
-- POST `/api/auth/login` - User login
-
-### Complaints
-- GET `/api/complaints` - Get user's complaints
-- POST `/api/complaints` - Submit new complaint
-- GET `/api/complaints/:id` - Get complaint details
-- POST `/api/complaints/:id/feedback` - Submit feedback
-
-### Admin
-- GET `/api/admin/complaints` - Get all complaints
-- PUT `/api/admin/complaints/:id/status` - Update complaint status
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details. 
