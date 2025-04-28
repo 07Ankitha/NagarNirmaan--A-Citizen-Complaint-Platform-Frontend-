@@ -40,7 +40,7 @@ The frontend of NagarNirmaan is deployed on **Render**. You can access the live 
 Below are some screenshots of the application:
 
 ### Login Page
-![Login Page]([images/login-page.png](https://github.com/07Ankitha/NagarNirmaan--A-Citizen-Complaint-Platform-Frontend-/blob/main/nagarnirmaan%20login.png))
+![Login Page]([images/login-page.png](https://raw.githubusercontent.com/07Ankitha/NagarNirmaan--A-Citizen-Complaint-Platform-Frontend-/refs/heads/main/nagarnirmaan%20login.png))
 
 ### Citizen Dashboard
 ![Citizen Dashboard](images/citizen-dashboard.png)
